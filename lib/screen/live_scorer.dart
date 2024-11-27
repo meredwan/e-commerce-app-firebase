@@ -51,6 +51,7 @@ class _LiveScorerState extends State<LiveScorer> {
                       horizontal: 30,
                     ),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         ListTile(
                           leading: Badge(
